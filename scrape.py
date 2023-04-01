@@ -1,9 +1,15 @@
+from datetime import date
 import re
 import requests
+import pandas as pd
 from bs4 import BeautifulSoup
 
-# test apartments
-# url = "https://boligzonen.dk/lejeboliger/villalejlighed-frederiksberg-gratis-parkering-naer-metro"
+
+"""
+This script scrapes apartment data from boligzonen.dl for search in area of kobenhavn-kommune
+Data is saved in batches of a page size in csv titled with scraping date
+"""
+
 url = "https://boligzonen.dk/lejebolig/kobenhavn-kommune"
 
 
@@ -19,10 +25,12 @@ def soup(url: str) -> BeautifulSoup:
     return BeautifulSoup(content, "html.parser")
 
 
-def page_of_apartments(links: list) -> None:
-    """prints out data for every apartment"""
+def page_of_apartments(links: list) -> list:
+    """returns data for every apartment on the page"""
+    data = []
     for l in links:
-        print(apartment_data(soup(l)))
+        data.append(apartment_data(soup(l)))
+    return data
 
 
 def apartments_on_page(s: BeautifulSoup) -> list:
@@ -56,9 +64,13 @@ def apartment_data(s: BeautifulSoup) -> dict:
     rooms = int(s.find("div", string="Antal værelser").find_next_sibling().contents[0])
     area = to_int(s.find("div", string="Størrelse").find_next_sibling().contents[0])
     rent = to_int(s.find("div", string="Husleje").find_next_sibling().contents[0][:-2])
-    location = s.find(class_="bg-map")
-    latitude = float(location["data-lat"])
-    longitude = float(location["data-lng"])
+    try:
+        location = s.find(class_="bg-map")
+        latitude = float(location["data-lat"])
+        longitude = float(location["data-lng"])
+    except Exception as e:
+        latitude = None
+        longitude = None
 
     return {
         "rooms": rooms,
@@ -72,11 +84,18 @@ def apartment_data(s: BeautifulSoup) -> dict:
 
 
 def scrape_all(url: str) -> None:
-    """scrapes all pages of boligzonen.dk for given search"""
+    """scrapes all pages of boligzonen.dk for given search and saves it in csv file"""
     s = soup(url)
     last = last_page(s)
+    today = date.today().strftime("%m-%d-%y")
+
+    with open(f"{today}.csv", "w") as f:
+        f.write("rooms, area, rent, street, zip_code, latitude, longitude\n")
+
     for i in range(1, last + 1):
-        page_of_apartments(apartments_on_page(soup(next_page(url, i))))
+        page = page_of_apartments(apartments_on_page(soup(next_page(url, i))))
+        with open(f"{today}.csv", "a") as f:
+            pd.DataFrame(page).to_csv(f, header=False, index=False)
 
 
 if __name__ == "__main__":
