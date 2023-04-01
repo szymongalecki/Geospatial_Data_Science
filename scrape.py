@@ -11,26 +11,37 @@ def to_int(number: str) -> int:
     return int("".join([_ for _ in number if _.isnumeric()]))
 
 
-def apartment_data(url: str) -> dict:
-    # scrape
+def soup(url: str) -> BeautifulSoup:
     response = requests.get(url)
     content = response.content
-    soup = BeautifulSoup(content, "html.parser")
+    return BeautifulSoup(content, "html.parser")
 
+
+def page_of_apartments():
+    links = links_to_apartments()
+    for l in links:
+        print(apartment_data(soup(l)))
+
+
+def links_to_apartments() -> list:
+    root = "https://boligzonen.dk"
+    s = soup("https://boligzonen.dk/lejebolig/kobenhavn-kommune")
+    apartments = s.find("div", class_="row small-gutters properties").find_all(
+        "a", class_="property-partial"
+    )
+    links = [root + a["href"] for a in apartments]
+    return links
+
+
+def apartment_data(s: BeautifulSoup) -> dict:
     # find and parse
-    address = soup.find(name="p", class_="address-line").contents
+    address = s.find(name="p", class_="address-line").contents
     street = address[0].strip(" ,")
     zip_code = int(address[-1].split()[0])
-    rooms = int(
-        soup.find(name="div", string="Antal værelser").find_next_sibling().contents[0]
-    )
-    area = to_int(
-        soup.find(name="div", string="Størrelse").find_next_sibling().contents[0]
-    )
-    rent = to_int(
-        soup.find(name="div", string="Husleje").find_next_sibling().contents[0][:-2]
-    )
-    location = soup.find(class_="bg-map")
+    rooms = int(s.find("div", string="Antal værelser").find_next_sibling().contents[0])
+    area = to_int(s.find("div", string="Størrelse").find_next_sibling().contents[0])
+    rent = to_int(s.find("div", string="Husleje").find_next_sibling().contents[0][:-2])
+    location = s.find(class_="bg-map")
     latitude = float(location["data-lat"])
     longitude = float(location["data-lng"])
 
@@ -46,4 +57,4 @@ def apartment_data(url: str) -> dict:
     }
 
 
-print(apartment_data(url))
+page_of_apartments()
