@@ -87,7 +87,7 @@ def scrape_all(url: str) -> None:
     """scrapes all pages of boligzonen.dk for given search and saves it in csv file"""
     s = soup(url)
     last = last_page(s)
-    today = date.today().strftime("%m-%d-%y")
+    today = date.today().strftime("%d-%m-%y")
 
     with open(f"{today}.csv", "w") as f:
         f.write("rooms, area, rent, street, zip_code, latitude, longitude\n")
