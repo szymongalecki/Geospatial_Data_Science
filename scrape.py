@@ -58,6 +58,9 @@ def next_page(url: str, page: int) -> str:
 
 def apartment_data(s: BeautifulSoup) -> dict:
     """finds, parses and returns desired data of a single apartment"""
+    id = (
+        s.find("div", class_="reference-number").contents[0].replace("Sagsnummer: ", "")
+    )
     address = s.find(name="p", class_="address-line").contents
     street = address[0].strip(" ,")
     zip_code = int(address[-1].split()[0])
@@ -73,6 +76,7 @@ def apartment_data(s: BeautifulSoup) -> dict:
         longitude = None
 
     return {
+        "id": id,
         "rooms": rooms,
         "area": area,
         "rent": rent,
@@ -90,7 +94,7 @@ def scrape_all(url: str) -> None:
     today = date.today().strftime("%d-%m-%y")
 
     with open(f"{today}.csv", "w") as f:
-        f.write("rooms, area, rent, street, zip_code, latitude, longitude\n")
+        f.write("id, rooms, area, rent, street, zip_code, latitude, longitude\n")
 
     for i in range(1, last + 1):
         page = page_of_apartments(apartments_on_page(soup(next_page(url, i))))
