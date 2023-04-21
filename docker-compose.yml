@@ -1,0 +1,9 @@
+version: '3'
+services:
+  gds:
+    image: darribas/gds_py:8.0
+    container_name: gds
+    volumes:
+      - ${PWD}:/home/jovyan/work:8.0
+    ports:
+      - 8888:8888
