@@ -1,0 +1,3 @@
+sitemap: https://boligzonen.dk/boligzonen.xml.gz
+user-agent: *
+disallow: /en/rentals/*
