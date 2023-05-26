@@ -1,0 +1,484 @@
+commit 452373dcf9343dea4e3b4b9b7faffa59562f0827
+Author: Szymon Gałecki <sgal@itu.dk>
+Date:   Fri May 26 05:51:33 2023 +0200
+
+    Create README.md
+
+commit 537d4c6cfdc326d953cebc677ea8e54e99ba81b3
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Fri May 26 05:37:38 2023 +0200
+
+    config file for interactive map
+
+commit f5621e2c8c093efb8fda2a9f6e18230337551e81
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Fri May 26 05:06:43 2023 +0200
+
+    major clean up
+
+commit ebebdee1d052699e12556bd6d316393160876c78
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Thu May 25 22:23:39 2023 +0200
+
+    html directory no longer needed
+
+commit 14f936c09f1ca866833d921d9be995402bd0f1e9
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Thu May 25 22:22:26 2023 +0200
+
+    scraping boligzonen was legal
+
+commit 0eff74419e38763c06ac8d15c4200d832917caed
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Thu May 25 22:13:51 2023 +0200
+
+    updating naming to match Ellen's plot
+
+commit f395857a13049fa4b4c8c5f6daa15951bb010195
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Thu May 25 21:48:27 2023 +0200
+
+    fixed config for interactive map
+
+commit b483d1e503479bedad85f368d8eebe989fd500c9
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Thu May 25 20:31:41 2023 +0200
+
+    deleted plots
+
+commit 7248597ac6ca4f8c66fc7ab1dedc96b7e337f7b0
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Thu May 25 20:29:45 2023 +0200
+
+    plots
+
+commit dad96150301f08756fbd40a545f9d68874337180
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Thu May 25 20:27:34 2023 +0200
+
+    final version of interpolation notebook
+
+commit 8fd8bba2f13ebf4be634812744d7e24f1a5077c7
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Wed May 24 23:02:54 2023 +0200
+
+    modified plot of boligsiden apartments in sydhavn
+
+commit 1d457cdb202c11eb2711c1703e97ed618e2a89e8
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Wed May 24 23:02:21 2023 +0200
+
+    new plot of boligsiden apartments in nordhavn
+
+commit bffc655978cff1ce95bd76a3c4b56b3f102d785f
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Wed May 24 23:01:34 2023 +0200
+
+    new code for new plots
+
+commit 2696db84578eae61610b2972adb3abc752e9d79e
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Wed May 24 22:33:27 2023 +0200
+
+    removed kepler config file containing incorrect rent_per_area values for boligsiden dataset
+
+commit ad448a45f6d98b4eb22e4a23703d939c13c694b8
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Wed May 24 15:00:25 2023 +0200
+
+    Sydhavn cluster of boligsiden apartments
+
+commit d15f07f5d5e9c9299c8af8762c5105304ca042f3
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Wed May 24 14:59:40 2023 +0200
+
+    notebook for report plots
+
+commit 13794aa9c0b828e418efc303355a6a4ca1a90930
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Wed May 24 11:25:58 2023 +0200
+
+    boligzonen and boligsiden apartments location
+
+commit 2a85832714ca7ccff2b56bb508edba1c30301759
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Wed May 24 10:22:41 2023 +0200
+
+    modified merging because of incorrect price_per_area field for boligsiden dataset
+
+commit 75cccae495fbe3b82f380d40bfcfc85a5d24c647
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 22 16:22:24 2023 +0200
+
+    datasets for visualisation
+
+commit 86371ef54066b16353aabad0dd3dc0a239c167a4
+Author: frederikbf1 <frfa@itu.dk>
+Date:   Mon May 22 14:48:37 2023 +0200
+
+    Morans_i_boligsiden
+
+commit d5008f595d742fe44b1e29e6b65d54fe50e577f4
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 22 14:46:28 2023 +0200
+
+    modified plot names for Windows
+
+commit a2953d75be765a41704b3baca9cd27fb5e0f427d
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Thu May 18 00:59:41 2023 +0200
+
+    preliminary results
+
+commit 8883c7b17392777d0e6d599bff8bc5d0f36fdaa5
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Thu May 18 00:59:10 2023 +0200
+
+    tweaking interpolation parameters
+
+commit 5d60a2fc65abe454cb2a33f2f257782dff666631
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Wed May 17 14:21:42 2023 +0200
+
+    config file for kepler.gl - visualisation of merged datasets
+
+commit 0928dc61a1a2ab1f0b91170d8e032431156341eb
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 15 23:40:17 2023 +0200
+
+    boligzonen and boligsiden dataset merged
+
+commit 762a996f444b88ee6f69b3f86d393a44331360aa
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 15 23:39:12 2023 +0200
+
+    notebook for mergin boligzonen and boligsiden datasets
+
+commit 45c383e2cedfbd706b5827f5a49860b423bd9934
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 15 00:54:19 2023 +0200
+
+    n=10, k=5
+
+commit 751b76fa5daa0e1a07405d8e4f0b5656bed7c3c3
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 15 00:53:14 2023 +0200
+
+    n=5, k=2
+
+commit abdb6aa14767cb8a88a7e50a96ef5eefe29aedbf
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 15 00:51:44 2023 +0200
+
+    interpolation notebook
+
+commit 138e49f68c6bef75f629f8ec11e053bf2facc3ef
+Author: elda <elda@itu.dk>
+Date:   Sun May 14 18:11:34 2023 +0200
+
+    shortest dist and lineare reg
+
+commit 6c96549796eb19712a66290cc2af54959a108fa5
+Author: frederikbf1 <frfa@itu.dk>
+Date:   Sun May 14 13:30:20 2023 +0200
+
+    Update data_exploration.ipynb
+
+commit 4c5c22e8ea996a55d74e1a5fbfbaf089698ccae4
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Tue May 9 13:14:25 2023 +0200
+
+    config file for data visualisation in kepler.gl
+
+commit b304d263d9c825732130b743eb443e56371d123b
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Tue May 9 12:28:16 2023 +0200
+
+    outliers: removed few apartments with normalised rent > 600 DKK
+
+commit 46adba8a148e9510601568e2070e8bb455ca3517
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Tue May 9 12:12:21 2023 +0200
+
+    datasets for visualisation in kepler
+
+commit 1b46e55c66d26ad0faa9a219b47cbe5a45a1e3b4
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 8 22:47:38 2023 +0200
+
+    outliers: removed apartments with 6 rooms or more
+
+commit 05ecc1482b897c200abbd06517652b1af5152b73
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 8 22:41:17 2023 +0200
+
+    outliers: removed apartments with 6 rooms or more
+
+commit 7eaf13ac46578ed62005abd7f0c4c04b08cfbd8e
+Merge: e55bb03 7615dd9
+Author: Szymon Gałecki <sgal@itu.dk>
+Date:   Mon May 8 22:33:41 2023 +0200
+
+    Merge pull request #1 from sgal/szymon
+    
+    Szymon
+
+commit 7615dd92dd1243fef2173fe1ed56abd41d0b8cfc
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 8 22:06:46 2023 +0200
+
+    removed outliers having 7 or more rooms
+
+commit e55bb0338c5257955619b96f93887c5d3044c3dc
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 8 22:03:30 2023 +0200
+
+    reverted removing outliers from wrong file
+
+commit 1a4a3835637919d24fad2a6f28478c75987eaa2d
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 8 21:54:36 2023 +0200
+
+    removed 4 outliers having 7 or more rooms
+
+commit e0bcba0e551e50c1edef11d5433a89fef66c1253
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 8 21:36:44 2023 +0200
+
+    added cache dir to gitignore
+
+commit f4c60ef66e287ca41fce9257732e3c90d86f546c
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 8 21:34:50 2023 +0200
+
+    removed a filthy outlier
+
+commit ed4f99ad24d06e58e33ad2d43eb57035787d65c1
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 8 21:18:19 2023 +0200
+
+    dataset with removed duplicates
+
+commit 0a4ed5903b09a5b0bdfcacdb0225baa37b9fe46b
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 8 00:46:45 2023 +0200
+
+    started idw interpolation
+
+commit 8ba121d41edec077e5908b79e5639b7648eff481
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 8 00:46:13 2023 +0200
+
+    added normalised rent column
+
+commit 225c122a68dc0d540765308deeec4d4a9f214866
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon May 8 00:45:06 2023 +0200
+
+    scope of the task changed
+
+commit d701c65dbcedbb148348a0711e1eb8063d2f46b1
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Sun May 7 20:15:46 2023 +0200
+
+    update
+
+commit 52ad39a852e9e403e6f5b14c888237e6cd4bc225
+Author: frederikbf1 <frfa@itu.dk>
+Date:   Fri May 5 12:13:05 2023 +0200
+
+    Update moran's I for multiple k
+
+commit 1773f80581ba635e4f58645b872185aef48e5bef
+Author: elda <elda@itu.dk>
+Date:   Thu May 4 13:49:20 2023 +0200
+
+    avg zip code
+
+commit fa1a900775214261fb91cb90d6295ddc01ecda2f
+Author: elda <elda@itu.dk>
+Date:   Thu May 4 12:43:02 2023 +0200
+
+    dist and linear reg
+
+commit 523ac196432255422502e037332ef722112b7845
+Author: elda <elda@itu.dk>
+Date:   Mon May 1 17:31:28 2023 +0200
+
+    dist metro
+
+commit bfc6c01da27fbeaeb6e574d2253693dc9930f714
+Author: frederikbf1 <frfa@itu.dk>
+Date:   Sun Apr 30 21:25:06 2023 +0200
+
+    Update data_exploration.ipynb
+
+commit 1b5c276447f23a8f5a8809040a0554380f604db4
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Fri Apr 28 12:59:41 2023 +0200
+
+    new notebook for spatial weight matrix options exploration
+
+commit 0129c8343d24024173c9b6dc13c2768ec507ad49
+Merge: 48c68f3 a42bd26
+Author: frederikbf1 <frfa@itu.dk>
+Date:   Mon Apr 24 15:23:17 2023 +0200
+
+    Merge branch 'main' of https://github.itu.dk/sgal/GDS_Project
+
+commit 48c68f3571ca2edc063ccb6b6daa851cf5bc4d56
+Author: frederikbf1 <frfa@itu.dk>
+Date:   Mon Apr 24 15:23:12 2023 +0200
+
+    Morans I done in data_exploration
+
+commit a42bd268b5f87b5253298cdb834842321f06c95e
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Fri Apr 21 14:47:57 2023 +0200
+
+    run jupyter container with : docker-compose up
+
+commit 1338c1d4c144f8109f9184d9330e2ff56c2026a9
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Thu Apr 20 23:10:13 2023 +0200
+
+    directory for exported notebooks so that I don't have to start docker
+
+commit f47accb9c48c1a796e987f4cd9072c633af4ffb4
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Thu Apr 20 23:04:31 2023 +0200
+
+    dataset with no duplicates, out of 2020 apartments only two are missing, 99.9 complete
+
+commit dfc2dc34fa158e8087bdadc07a30d1843caac911
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Thu Apr 20 23:00:25 2023 +0200
+
+    comparison of scrapers, duplicates analysis, solution
+
+commit b891fd76136ab7805067da92b1c0e31d4171abee
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Thu Apr 20 17:05:42 2023 +0200
+
+    added .gitignore
+
+commit ea3a457d8045e7c84738b5a975105816b0d6dd59
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Thu Apr 20 17:04:25 2023 +0200
+
+    multiple scrapes to eliminate duplicate records
+
+commit e3a306c1f4196371ac1f3b21a3160903639c8a8d
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Thu Apr 20 17:02:06 2023 +0200
+
+    Scraping with Python vs Go
+
+commit 2414b58916eae76553b28976dff2825461f568f7
+Merge: c9a5519 900f2e9
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Tue Apr 18 12:23:13 2023 +0200
+
+    messed up git, sorry
+
+commit c9a551940c92321b8ac8457911b40efc007d62f2
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Mon Apr 17 11:38:08 2023 +0200
+
+    new scrape for duplicates investigation, _go files obtained from alternative scraper
+
+commit 900f2e99d721ea7fe9c9885161d328f57358d98b
+Author: frederikbf1 <frfa@itu.dk>
+Date:   Mon Apr 17 10:32:54 2023 +0200
+
+    Added new cph maps
+
+commit ea08404dd663990896d27fd83d0a905a498b2700
+Author: elda <elda@itu.dk>
+Date:   Sun Apr 16 13:10:27 2023 +0200
+
+    initial
+
+commit 1ccf1029ff20aa9ba75ddae2f72a8e4562d97df9
+Author: elda <elda@itu.dk>
+Date:   Sun Apr 16 13:02:21 2023 +0200
+
+    initial
+
+commit d5ff1b169c078fd3d69ecea23213d36997203413
+Author: frederikbf1 <frfa@itu.dk>
+Date:   Thu Apr 13 16:54:11 2023 +0200
+
+    Create 12-04-23_norm.csv
+
+commit 671e2da57dc98739bc770f079d68882f17bed331
+Author: frederikbf1 <frfa@itu.dk>
+Date:   Thu Apr 13 16:42:57 2023 +0200
+
+    Updated data exploration + data folder
+
+commit 330797624b819521aa8be7c8735e4112348af77f
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Wed Apr 12 12:34:13 2023 +0200
+
+    new scrape with unique apartment identifiers
+
+commit dc3d8bfa7a1eaf6cb39aa2508cdbabbb82a1e8bd
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Wed Apr 12 12:02:11 2023 +0200
+
+    case number on boligzonen.dk is scraped as unique identifier of apartment
+
+commit 28e16c3264d3be66901fde01bc31c3a263c7d5b2
+Author: elda <elda@itu.dk>
+Date:   Mon Apr 10 22:17:04 2023 +0200
+
+    lejeboliger
+
+commit 1b80df377653f2d01d183fd09f8bf1d6965a7058
+Author: frederikbf1 <frfa@itu.dk>
+Date:   Tue Apr 4 12:16:06 2023 +0200
+
+    Create data_exploration.ipynb
+
+commit 0331059bf4ff51ca1ffb0d5d776d667ee92877e7
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Sat Apr 1 22:44:35 2023 +0200
+
+    scraped 1886 Copehagen apartments, on 01/04/2023, 22:20
+
+commit 4c77cdc0f771b69683b6187dccdcc1566105a694
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Sat Apr 1 22:43:29 2023 +0200
+
+    changed date format
+
+commit ecfa231fbf80e6f92c1fb77bb5ae45f9b98f07bc
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Sat Apr 1 22:39:20 2023 +0200
+
+    scrapes everything and saves to .csv file in batches
+
+commit 66a18323945f78aa50d6fc52494aef044b55a2f7
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Sat Apr 1 20:13:33 2023 +0200
+
+    scrapes all apartment data for given boligzonen.dk search url
+
+commit 9558fcf331152d00def4cd2864daed387a2834f0
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Sat Apr 1 19:01:38 2023 +0200
+
+    scrapes entire page with given link, 18 apartments at a time
+
+commit 96bb141ff59e3e525b9bc698408cb955e02b6b95
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Sat Apr 1 16:27:20 2023 +0200
+
+    completes scrape of single apartment
+
+commit 438a80841ffcc0c71a0a871a112f4794aeb14bc1
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Fri Mar 31 16:21:40 2023 +0200
+
+    scraped: number_of_rooms, area, rent_price
