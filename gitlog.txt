@@ -1,3 +1,15 @@
+commit 9a0e9ab44d67bd9e0763a8430ab1299cfc3627f8
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Fri May 26 12:23:26 2023 +0200
+
+    report update
+
+commit 321df69b0b1335bce370397a5cd9b69146f21881
+Author: Szymon Gałecki <szymongalecki@gmail.com>
+Date:   Fri May 26 05:55:05 2023 +0200
+
+    gitlog for submission
+
 commit 452373dcf9343dea4e3b4b9b7faffa59562f0827
 Author: Szymon Gałecki <sgal@itu.dk>
 Date:   Fri May 26 05:51:33 2023 +0200
