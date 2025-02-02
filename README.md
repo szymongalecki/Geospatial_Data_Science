@@ -31,4 +31,4 @@ This is a Geospatial Data Science project workspace
 - [Kepler.gl](https://kepler.gl/demo)
 - [Configuration file for map](kepler.gl.json)
 
- ![Cluster of Boligsiden apartments in Sydhavn](https://github.itu.dk/raw/sgal/GDS_Project/main/plots/figures%20for%20report/front_page.png?token=GHSAT0AAAAAAAAAFOTVVNYMFOL4TSL3W4RCZDZM3OA)
+ ![Cluster of Boligsiden apartments in Sydhavn](report/images/front_page.png))
